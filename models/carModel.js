@@ -64,30 +64,30 @@ const carSchema = new mongoose.Schema({
     },
   },
   engineDetail: {
-    type: Number,
+    type: String,
     required: [true, "A car must have engine detail"],
     trim: true,
   },
   engineCapacityLitre: {
-    type: Number,
+    type: String,
     required: [true, "A car must have engine capacity in litres"],
     trim: true,
   },
 
   fuelCapacity: {
-    type: Number,
+    type: String,
     required: [true, "A car must have fuel capacity in litres"],
     trim: true,
   },
 
   fuelConsumptionAverage: {
-    type: Number,
+    type: String,
     required: [true, "A car must have fuel consumption average in km/litres"],
     trim: true,
   },
 
   fuelRangeAverage: {
-    type: Number,
+    type: String,
     required: [true, "A car must have fuel range average in "],
     trim: true,
   },
